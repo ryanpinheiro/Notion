@@ -1,0 +1,1 @@
+{"name":"projeto-de-vida","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"npx serve .","sync":"node scripts/sync-notion.mjs","check":"node scripts/check.mjs"},"engines":{"node":">=20"}}

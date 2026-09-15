@@ -1,0 +1,28 @@
+name: Sync Notion data
+on:
+  workflow_dispatch:
+  schedule: [{ cron: "17 * * * *" }]
+permissions: { contents: write }
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm run sync
+        env:
+          NOTION_TOKEN: "${{ secrets.NOTION_TOKEN }}"
+          NOTION_HABITS_DATABASE_ID: "${{ secrets.NOTION_HABITS_DATABASE_ID }}"
+          NOTION_HABIT_LOG_DATABASE_ID: "${{ secrets.NOTION_HABIT_LOG_DATABASE_ID }}"
+          NOTION_FINANCE_DATABASE_ID: "${{ secrets.NOTION_FINANCE_DATABASE_ID }}"
+          NOTION_WORK_DATABASE_ID: "${{ secrets.NOTION_WORK_DATABASE_ID }}"
+          NOTION_CONTEST_DATABASE_ID: "${{ secrets.NOTION_CONTEST_DATABASE_ID }}"
+          NOTION_PROJECTS_DATABASE_ID: "${{ secrets.NOTION_PROJECTS_DATABASE_ID }}"
+          NOTION_ROADMAP_DATABASE_ID: "${{ secrets.NOTION_ROADMAP_DATABASE_ID }}"
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/data/*.json
+          git diff --cached --quiet || git commit -m "chore: sync sanitized Notion data"
+          git push
