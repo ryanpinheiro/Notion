@@ -1,1 +1,103 @@
-{"mock":true,"kpis":[{"icon":"✦","label":"HÁBITOS ATIVOS","value":"4","sub":"4 em acompanhamento","change":"ATIVOS"},{"icon":"↗","label":"TAXA DE CONCLUSÃO","value":"78%","sub":"+6% em relação ao mês anterior","change":"+6%"},{"icon":"↻","label":"SEQUÊNCIA ATUAL","value":"6 dias","sub":"Continue assim hoje","change":"AGORA"},{"icon":"◆","label":"MAIOR SEQUÊNCIA","value":"14 dias","sub":"Seu recorde pessoal","change":"RECORDE"}],"summary":{"done":87,"missed":25},"habits":[{"icon":"▣","name":"Candidaturas e retornos","short":"Trabalho","done":21,"target":26,"rate":81,"color":"#4f8cff"},{"icon":"▤","name":"Estudo — Concursos","short":"Concursos","done":18,"target":24,"rate":75,"color":"#a879ff"},{"icon":"◎","name":"CNH — teoria + revisão","short":"CNH","done":23,"target":26,"rate":88,"color":"#f59e42"},{"icon":"⌁","name":"Faculdade — estudo e pendências","short":"Faculdade","done":19,"target":26,"rate":73,"color":"#42c983"}],"weeks":{"labels":["S1","S2","S3","S4","S5","S6","S7","S8"],"consistency":[52,58,55,64,68,72,71,78],"minutes":[180,235,210,290,265,340,315,390]},"heatmap":{"2026-09-15":{"level":4,"habit":"Estudo — Concursos","minutes":90,"status":"Concluído"},"2026-09-14":{"level":3,"habit":"CNH — revisão","minutes":45,"status":"Concluído"},"2026-09-13":{"level":-1,"habit":"Rotina","status":"Não feito"},"2026-09-12":{"level":2,"habit":"Faculdade","minutes":30,"status":"Parcial"}}}
+{
+  "generatedAt": "2026-09-16T00:21:14.930Z",
+  "source": "notion",
+  "summary": {
+    "activeHabits": 4,
+    "completionRate": null,
+    "currentStreak": 0,
+    "bestStreak": 0,
+    "done": 0,
+    "missed": 0
+  },
+  "habits": [
+    {
+      "name": "💼 Candidaturas e retornos de vagas",
+      "area": "Trabalho",
+      "weeklyGoal": null,
+      "targetMinutes": null,
+      "plannedDays": [],
+      "done": 0,
+      "missed": 0,
+      "completionRate": null,
+      "minutes": 0,
+      "icon": "▣",
+      "color": "#4f8cff"
+    },
+    {
+      "name": "📚 Estudo — Concursos",
+      "area": "Concursos",
+      "weeklyGoal": null,
+      "targetMinutes": null,
+      "plannedDays": [],
+      "done": 0,
+      "missed": 0,
+      "completionRate": null,
+      "minutes": 0,
+      "icon": "▤",
+      "color": "#a879ff"
+    },
+    {
+      "name": "🎓 Faculdade — estudo e pendências",
+      "area": "Faculdade",
+      "weeklyGoal": null,
+      "targetMinutes": null,
+      "plannedDays": [],
+      "done": 0,
+      "missed": 0,
+      "completionRate": null,
+      "minutes": 0,
+      "icon": "⌁",
+      "color": "#42c983"
+    },
+    {
+      "name": "🚗 CNH — teoria + revisão",
+      "area": "CNH",
+      "weeklyGoal": 7,
+      "targetMinutes": 30,
+      "plannedDays": [
+        "Seg",
+        "Ter",
+        "Qua",
+        "Qui",
+        "Sex",
+        "Sáb",
+        "Dom"
+      ],
+      "done": 0,
+      "missed": 0,
+      "completionRate": null,
+      "minutes": 0,
+      "icon": "◎",
+      "color": "#f59e42"
+    }
+  ],
+  "daily": [],
+  "weekly": [],
+  "byHabit": [
+    {
+      "name": "💼 Candidaturas e retornos de vagas",
+      "done": 0,
+      "missed": 0,
+      "minutes": 0
+    },
+    {
+      "name": "📚 Estudo — Concursos",
+      "done": 0,
+      "missed": 0,
+      "minutes": 0
+    },
+    {
+      "name": "🎓 Faculdade — estudo e pendências",
+      "done": 0,
+      "missed": 0,
+      "minutes": 0
+    },
+    {
+      "name": "🚗 CNH — teoria + revisão",
+      "done": 0,
+      "missed": 0,
+      "minutes": 0
+    }
+  ],
+  "studyMinutes": []
+}
