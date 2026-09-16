@@ -15,11 +15,6 @@ jobs:
           NOTION_TOKEN: "${{ secrets.NOTION_TOKEN }}"
           NOTION_HABITS_DATABASE_ID: "${{ secrets.NOTION_HABITS_DATABASE_ID }}"
           NOTION_HABIT_LOG_DATABASE_ID: "${{ secrets.NOTION_HABIT_LOG_DATABASE_ID }}"
-          NOTION_FINANCE_DATABASE_ID: "${{ secrets.NOTION_FINANCE_DATABASE_ID }}"
-          NOTION_WORK_DATABASE_ID: "${{ secrets.NOTION_WORK_DATABASE_ID }}"
-          NOTION_CONTEST_DATABASE_ID: "${{ secrets.NOTION_CONTEST_DATABASE_ID }}"
-          NOTION_PROJECTS_DATABASE_ID: "${{ secrets.NOTION_PROJECTS_DATABASE_ID }}"
-          NOTION_ROADMAP_DATABASE_ID: "${{ secrets.NOTION_ROADMAP_DATABASE_ID }}"
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
