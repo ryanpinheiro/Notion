@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-16T00:21:14.930Z",
+  "generatedAt": "2026-09-16T04:49:35.076Z",
   "source": "notion",
   "summary": {
     "activeHabits": 4,
-    "completionRate": null,
-    "currentStreak": 0,
-    "bestStreak": 0,
-    "done": 0,
+    "completionRate": 100,
+    "currentStreak": 1,
+    "bestStreak": 1,
+    "done": 1,
     "missed": 0
   },
   "habits": [
@@ -16,10 +16,10 @@
       "weeklyGoal": null,
       "targetMinutes": null,
       "plannedDays": [],
-      "done": 0,
+      "done": 1,
       "missed": 0,
-      "completionRate": null,
-      "minutes": 0,
+      "completionRate": 100,
+      "minutes": 120,
       "icon": "▣",
       "color": "#4f8cff"
     },
@@ -71,14 +71,31 @@
       "color": "#f59e42"
     }
   ],
-  "daily": [],
-  "weekly": [],
+  "daily": [
+    {
+      "date": "2026-09-15",
+      "state": "done",
+      "done": 1,
+      "missed": 0,
+      "skipped": 0,
+      "minutes": 120
+    }
+  ],
+  "weekly": [
+    {
+      "week": "2026-W38",
+      "done": 1,
+      "missed": 0,
+      "minutes": 120,
+      "completionRate": 100
+    }
+  ],
   "byHabit": [
     {
       "name": "💼 Candidaturas e retornos de vagas",
-      "done": 0,
+      "done": 1,
       "missed": 0,
-      "minutes": 0
+      "minutes": 120
     },
     {
       "name": "📚 Estudo — Concursos",
@@ -99,5 +116,10 @@
       "minutes": 0
     }
   ],
-  "studyMinutes": []
+  "studyMinutes": [
+    {
+      "week": "2026-W38",
+      "minutes": 120
+    }
+  ]
 }
